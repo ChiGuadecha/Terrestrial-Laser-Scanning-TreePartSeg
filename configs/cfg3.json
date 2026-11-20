@@ -1,0 +1,8 @@
+{
+ "t12": {"kind": "new", "twig": {"p_floor": 0.02, "lin_th": 0.45, "rad_th": 0.030, "attach_frac": 0.22, "attach_r": 0.12, "elong": 1.7, "max_size": 30000},
+         "grow": {"p_floor": 0.02, "lin_th": 0.45, "rad_th": 0.025, "max_len": 0.6, "dir_cos": 0.40, "eps": 0.04}},
+ "t12_tp": {"kind": "new", "trunk_prior": true, "twig": {"p_floor": 0.02, "lin_th": 0.45, "rad_th": 0.030, "attach_frac": 0.22, "attach_r": 0.12, "elong": 1.7, "max_size": 30000},
+         "grow": {"p_floor": 0.02, "lin_th": 0.45, "rad_th": 0.025, "max_len": 0.6, "dir_cos": 0.40, "eps": 0.04}},
+ "t12_tpp": {"kind": "new", "trunk_prior": "promote", "twig": {"p_floor": 0.02, "lin_th": 0.45, "rad_th": 0.030, "attach_frac": 0.22, "attach_r": 0.12, "elong": 1.7, "max_size": 30000},
+         "grow": {"p_floor": 0.02, "lin_th": 0.45, "rad_th": 0.025, "max_len": 0.6, "dir_cos": 0.40, "eps": 0.04}}
+}

@@ -1,0 +1,31 @@
+# ---- runtime artifacts (not tracked) ----
+__pycache__/
+*.pyc
+data/
+runs/
+cache/
+output/
+成果/
+logs/
+*.log
+.root
+_*
+
+# ---- large data & models (distribute separately) ----
+*.pth
+*.npz
+*.laz
+*.ply
+训练集/
+测试集/
+
+# ---- third-party (fetch per README, do not commit) ----
+ptv3_repo/
+third_party/
+three.min.js
+
+# ---- editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

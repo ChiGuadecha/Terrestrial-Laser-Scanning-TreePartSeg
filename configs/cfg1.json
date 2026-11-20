@@ -1,0 +1,9 @@
+{
+ "raw": {"kind": "raw"},
+ "old": {"kind": "old"},
+ "new": {"kind": "new"},
+ "ag1": {"kind": "new", "twig": {"p_floor": 0.02, "lin_th": 0.45, "rad_th": 0.028, "attach_frac": 0.25, "attach_r": 0.08, "elong": 1.8, "max_size": 20000},
+         "grow": {"p_floor": 0.02, "lin_th": 0.45, "rad_th": 0.025, "max_len": 0.6, "dir_cos": 0.40, "eps": 0.04}},
+ "ag2": {"kind": "new", "twig": {"p_floor": 0.0, "lin_th": 0.40, "rad_th": 0.032, "attach_frac": 0.2, "attach_r": 0.10, "elong": 1.6, "max_size": 40000},
+         "grow": {"p_floor": 0.0, "lin_th": 0.40, "rad_th": 0.030, "max_len": 1.0, "dir_cos": 0.30, "eps": 0.05}}
+}

@@ -1,0 +1,7 @@
+{
+ "base":   {"kind":"new","trunk_finalize":true,"twig":{"p_floor":0.02,"lin_th":0.45,"rad_th":0.030,"attach_frac":0.22,"attach_r":0.12,"elong":1.7,"max_size":30000},"grow":{"p_floor":0.02,"lin_th":0.45,"rad_th":0.025,"max_len":0.6,"dir_cos":0.40,"eps":0.04}},
+ "pf10":   {"kind":"new","trunk_finalize":true,"twig":{"p_floor":0.10,"lin_th":0.45,"rad_th":0.030,"attach_frac":0.22,"attach_r":0.12,"elong":1.7,"max_size":30000},"grow":{"p_floor":0.10,"lin_th":0.45,"rad_th":0.025,"max_len":0.6,"dir_cos":0.40,"eps":0.04}},
+ "pf25":   {"kind":"new","trunk_finalize":true,"twig":{"p_floor":0.25,"lin_th":0.45,"rad_th":0.030,"attach_frac":0.22,"attach_r":0.12,"elong":1.7,"max_size":30000},"grow":{"p_floor":0.25,"lin_th":0.45,"rad_th":0.025,"max_len":0.6,"dir_cos":0.40,"eps":0.04}},
+ "strict": {"kind":"new","trunk_finalize":true,"twig":{"p_floor":0.05,"lin_th":0.55,"rad_th":0.026,"attach_frac":0.35,"attach_r":0.10,"elong":2.4,"max_size":30000},"grow":{"p_floor":0.05,"lin_th":0.55,"rad_th":0.022,"max_len":0.6,"dir_cos":0.40,"eps":0.04}},
+ "loose":  {"kind":"new","trunk_finalize":true,"twig":{"p_floor":0.02,"lin_th":0.40,"rad_th":0.032,"attach_frac":0.18,"attach_r":0.14,"elong":1.5,"max_size":30000},"grow":{"p_floor":0.02,"lin_th":0.40,"rad_th":0.028,"max_len":0.6,"dir_cos":0.40,"eps":0.04}}
+}

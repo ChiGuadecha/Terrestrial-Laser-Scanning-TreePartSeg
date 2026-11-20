@@ -1,0 +1,31 @@
+﻿梁艺萌 · 署名与许可说明 / NOTICE
+========================================================================
+版本：2026-11-20    项目：树干 / 树枝 / 树叶 三维点云（TLS）分离识别
+
+一、第一方代码与文档（本包 src/、configs/、docs/、run_pipeline.ps1）
+    完成人：梁艺萌
+    权利声明：保留所有权利。**未经本人允许不得商用**——包括但不限于产品销售、
+              收费服务、商业项目交付、对外转授权与打包进任何商业产品。
+    允许用途：科研、教学、内部评估与复现，可自由阅读、修改、在我的项目内使用；
+              请在衍生文件中保留每个源文件顶部的署名块。
+    引用方式：梁艺萌. 树干/树枝/树叶三维点云分离识别（Point Transformer V3）. 2026.
+    每个 .py 文件顶部都写有署名块；如批量重打署名，用 src/add_banner.py（幂等）。
+
+二、第三方组件（本包 third_party/）—— 署名与许可归其原作者，不受上一条授权约束
+    1) point-transformer-v3（Pointcept，https://github.com/Pointcept）
+       许可：CC BY-NC 4.0 + 上游附加许可（研究/评估/教育视为非商用）
+       文件：third_party/point-transformer-v3/LICENSE、NOTICE
+       提醒：若最终用途为商业，除取得完成人许可外，还需另向 Pointcept 取得商用授权。
+       本项目仅使用其 src/point_transformer_v3 纯 PyTorch 前向实现（免编译 CUDA 扩展）。
+    2) three.min.js（Three.js Authors，MIT，Copyright 2010-2023）
+       用途：make_viewer.py 生成的离线三维查看器 HTML 内嵌库。
+    3) 预训练权重（不随本包分发，仅由 src/dl_sonata.py 下载）
+       facebook/sonata（sonata.pth）与 PointTransformerV3 ScanNet ckpt，
+       许可以各自上游发布页为准（均为非商用类许可），使用前请自行核对。
+
+三、数据
+    训练集 30 棵（N.laz + N_leaf.laz + N_wood.laz）、测试集 20 棵（N.laz）由数据提供方
+    给出，不随本包分发；其权属与使用限制以数据提供方协议为准。
+
+四、免责
+    本代码按“现状”提供，用于科研与工程评估。作者不对因使用本代码导致的直接/间接损失负责。
